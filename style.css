@@ -1,0 +1,64 @@
+/* banner at the top of the page */ 
+.banner{
+    background-color: rgb(173, 76, 76);
+
+}
+
+h1.banner_txt {
+    text-align: center;
+    color: rgb(255,255,255);
+}
+/* button under banner heading text which links to scrape() */
+#scrape_btn {
+    text-align: center;
+}
+
+/* first text after banner with the latest news from NASA*/
+#first_text {
+  background-color: rgb(255, 255, 202);
+}
+
+/* tweet box and mars facts table boxes to the right*/
+div.info_box {
+    background:rgb(216, 216, 216); 
+    outline:.01px double black; 
+    padding:5%;
+}
+
+/* alignment of main image */
+figure.main {
+    float:right;
+    padding-right:50px;
+}
+
+/* limits size of the featured image */
+img.image {
+    max-width: 900px;    
+    max-height: 900px;
+}
+
+figcaption.main_caption{
+    text-align: center;
+}
+
+/* set hemisphere image size */
+img.hemis_img {
+    width:480px;
+    height:480px;
+}
+
+figcaption.hemis_caption{
+    text-align: center;
+    font-weight: bold;
+}
+/* align hemisphere images so that they are centered */
+/* aligns hemisphere images on the left side */
+figure.hemis_left {
+    float:right;
+    padding-right: 10px;
+}
+/* aligns the images on the right */
+figure.hemis_right {
+    float:left;
+    padding-left: 10px;
+}
