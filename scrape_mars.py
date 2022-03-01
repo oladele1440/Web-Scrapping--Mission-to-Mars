@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from bs4 import BeautifulSoup
-import requests
+import requests as req
 from splinter import Browser
 import time
 
@@ -16,7 +16,7 @@ def scrape():
 
     # *** Scrape the [NASA Mars News Site] ***
     url_NASA = "https://mars.nasa.gov/news"
-    r = requests.get(url_NASA) # sends a request to the url
+    r = req.get(url_NASA) # sends a request to the url
     time.sleep(1)
     data = r.text # turns response into texts
     soup = BeautifulSoup(data, "html.parser") # changes the response from text to html
